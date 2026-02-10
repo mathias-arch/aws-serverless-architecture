@@ -1,7 +1,13 @@
 # Arquitectura Serverless con AWS & Terraform
+![Terraform](https://img.shields.io/badge/Terraform-1.5.0+-9b51e0) ![AWS](https://img.shields.io/badge/AWS-Architecture-ff9900) ![Python](https://img.shields.io/badge/Python-Lambda-3776ab) ![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-4053d6) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Este proyecto demuestra el despliegue de una arquitectura serverless completa en Amazon Web Services (AWS) utilizando **Terraform** como herramienta de Infraestructura como Código (IaC). 
+---
 
+## Descripción del Proyecto
+
+Este proyecto representa el despliegue de una arquitectura backend profesional en **Amazon Web Services (AWS)** utilizando un enfoque moderno de **DevOps**. Se ha priorizado la automatización de la infraestructura, la seguridad mediante roles de IAM y la persistencia de datos en una base de datos NoSQL.
+
+Todo el ecosistema ha sido orquestado mediante **Terraform**, permitiendo un despliegue repetible, escalable y eficiente en costes.
 ## Componentes de la Arquitectura
 
 El sistema está diseñado para ser escalable, seguro y de bajo coste, utilizando los siguientes servicios:
@@ -26,3 +32,9 @@ El sistema está diseñado para ser escalable, seguro y de bajo coste, utilizand
 
 ## Próximos Pasos
 Este repositorio sirve como base para el desarrollo de microservicios. La siguiente fase incluirá la implementación de un **Rastreador de Criptomonedas** (Bitcoin) automatizado mediante tareas programadas con **AWS EventBridge**.
+
+##  Licencia
+
+Este proyecto está bajo la **Licencia MIT**. Puedes consultar los términos legales en el siguiente enlace:
+
+[Consultar Licencia MIT del Proyecto](./LICENSE)
